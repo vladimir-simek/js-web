@@ -22,8 +22,8 @@ function endDiv() {
 
 function createBox(sizeBox) {
 
-    document.write("<div class='name'><a CLASS='YES'>CHESS TABLE IS OVER</a><div><a class='YES'>HERE IF YOU ARE BLIND:</a></div></div></div>")
-
+    /*document.write("<div class='name'><a CLASS='YES'>CHESS TABLE IS OVER</a><div><a class='YES'>HERE IF YOU ARE BLIND:</a></div></div></div>")*/
+    /*For blind people*/
     writeBox()
     for (let i = 0; i < sizeBox; i++) {
         writeBox1()
