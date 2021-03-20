@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #081d2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} /*Makes that shit centered*/
+
+.box {
+    width: 640px;
+    border: 15px solid #0f4142;
+} /*Makes shitty box that contains small boxes and creates a even more shittier border around it so blind people can understand where it ends*/
+
+.box1 {
+    height: 80px;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+} /*Makes second type of box in-line and sets it to white*/
+
+.box1:nth-child(even) .box2:nth-child(odd) {
+    background-color: black;
+} /*Makes every second box of first box black (horizontal)*/
+
+.box1:nth-child(odd) .box2:nth-child(even) {
+    background-color: black;
+} /*Makes every second box of first box black (vertical)*/
+
+.YES {
+    font-size: 72px;
+}
+
+.fakeSpace {
+    width: 25px;
+}
